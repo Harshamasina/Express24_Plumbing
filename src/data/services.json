@@ -1,0 +1,54 @@
+{
+    "services": [
+        {
+            "electric_service": [
+                "Thermal Scanning",
+                "Home Surge Protection",
+                "Safety Inspection",
+                "Smoke Detectors",
+                "CO Detectors",
+                "Portable Generator Backup",
+                "Whole House Generator",
+                "Fuse box upgrade",
+                "Panel upgrades",
+                "Meter box installation",
+                "Electrical Grounding",
+                "Breakers and fuses",
+                "Interior lighting",
+                "Security Lighting"
+            ]
+        },
+        {
+            "plumbing_services": [
+                "Drain Cleaning",
+                "Frozen Pipes",
+                "Leaking Pipes",
+                "Plumbing Inspection",
+                "Plumbing Repairs",
+                "Plumbing Installations",
+                "Plumbing Video Camera",
+                "Sewer Line Repair",
+                "Sump Pumps",
+                "Water Heater Installs",
+                "Water Line Repair",
+                "Water Line Replacement",
+                "Water Heater repair",
+                "Well Pump Replacement"
+            ]
+        },
+        {
+            "cleaning_services": [
+                "Flood damage Restoration",
+                "Full Contents Cleaning and Restoration",
+                "Complete foundation restoration",
+                "Residential/Commercial",
+                "Partial or Complete Pack Out",
+                "Deodorization",
+                "24 Hour Emergency Board Up",
+                "Flood Odor Cleaning",
+                "Fire Damage Restoration",
+                "Mold Remediation"
+            ]
+        }
+    ]
+}
