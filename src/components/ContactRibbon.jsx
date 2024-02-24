@@ -7,9 +7,9 @@ const ContactRibbon = () => {
             <div className="contact_ribbon">
                 <div className='contact_ribbon_content'>
                     <h3>All Your Electrical and Plumbing Needs</h3>
-                    <p>We can your wire and plumb you right!</p>
+                    <p>We can wire and plumb you right!</p>
                 </div>
-                <Link to='/contact' className='contact_ribbon_link'>Free Consultation</Link>
+                <Link to='/contact' className='contact_ribbon_link'>Get Free Consultation</Link>
             </div>
         </div>
     )

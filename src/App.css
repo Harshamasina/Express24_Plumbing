@@ -1069,7 +1069,7 @@ form{
     justify-content: center;
     align-items: center;
     background: #1A1A19;
-    margin-bottom: 3%;
+    /* margin-bottom: 3%; */
     height: 300px;
 }
 
@@ -1116,51 +1116,69 @@ form{
 
 /* Testimonials */
 
-.testimonials_container{
-    width: 80%;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 4rem 0;
+.testimonial_container{
+    background: #1A1A19;
+    height: 650px;
 }
 
-.testimonials_container span{
-    font-weight: 700;
+.testimonial_container  h3{
+    text-align: center;
+    color: #F9F8F4;
+    position: relative;
+    font-size: 100px;
 }
 
-.testimonials_container h3{
-    padding-top: 1rem;
+.testimonial_icons_container{
+    display: flex;
+    justify-content: center;
 }
 
-.slick-list, .slick-slider, .slick-track{
-    padding: 0;
+.testimonial_icons{
+    font-size: 100px;
+    color: rgba(239, 211, 11, .5);
+    position: absolute;
+    margin-top: -7.5%;
 }
 
-.slick-dots{
-    text-align: left;
-    margin-left: 1rem;
+.slider_container{
+    margin-top: 2%;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-left: 25%;
 }
 
-.slick-dots li button:before{
-    content: "";
+.testimonial_card{
+    /* border: 2px solid #DFDFD9; */
+    border-radius: 15px;
+    padding: 30px;
+    background: rgba(239, 211, 11, .1);
 }
 
-.slick-dots li button{
-    width: 9px;
-    height: 4px;
-    background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
-    padding: 0.1rem;
-    margin-top: 1rem;
-    transition: all 400ms ease-in-out;
-    border-radius: 50px;
+.testimonial_card_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.slick-dots li.slick-active button{
-    background: #01be96;
-    width: 15px;
+.testimonial_card_header h4{
+    font-size: 50px;
+    color: #EFD30B;
 }
 
-.slick-dots li{
-    margin: 0;
+.testimonial_card_header img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.testimonial_card span{
+    font-size: 30px;
+    color: #DFDFD9;
+}
+
+.testimonial_card p{
+    font-size: 20px;
+    color: #F9F8F4;
+    text-align: justify;
 }
 
 /* Media Queries */

@@ -4,6 +4,7 @@ import clean from '../assets/clean.jpg';
 import { MdPlumbing } from "react-icons/md";
 import CoatingPipe from '../assets/CoatingPipe.mp4';
 import ContactRibbon from './ContactRibbon';
+import Testimonials from './Testimonials';
 
 const HomeContent = () => {
     return (
@@ -28,6 +29,7 @@ const HomeContent = () => {
                 </p>
             </div>
             <ContactRibbon />
+            <Testimonials />
         </>
     );
 };
