@@ -26,7 +26,7 @@ const Service = () => {
                 <div className='service_wrapper'>
                     <div className='service_cards'>
                         <div className='card_image'>
-                            <img src='https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/electircal_16.jpg' alt='electrical services' />
+                            <img src='https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/electrical_services_18.jpg' alt='electrical services' />
                         </div>
                         <div className='card_details'>
                             <h3>Electrical Services</h3>

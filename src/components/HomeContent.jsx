@@ -28,6 +28,7 @@ const HomeContent = () => {
                     <span>Please contact us at 1-800-209-2709</span>
                 </p>
             </div>
+            
             <ContactRibbon />
             <Testimonials />
         </>
