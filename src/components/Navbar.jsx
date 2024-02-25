@@ -6,6 +6,7 @@ import Whyus from '../pages/Whyus';
 import Contact from '../pages/Contact';
 import Service from '../pages/Service';
 import Error404 from '../pages/Error404';
+import plumbing_logo from '../assets/plumbing_logo.png'
 
 const Navbar = () => {
     return (
@@ -13,7 +14,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg shadow-lg fixed-top">
                 <div className="container-fluid">
                     <Link className="navbar-brand me-auto" to="/">
-                        <img src='src\assets\plumbing_logo.png' alt='navbar_logo' className='navbar_img'></img>
+                        <img src={plumbing_logo} alt='navbar_logo' className='navbar_img'></img>
                     </Link>
 
                     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -36,9 +37,9 @@ const Navbar = () => {
                                 <li className="nav-item">
                                     <Link className="nav-link mx-lg-2" aria-current="why us" to="/whyus">Why Us?</Link>
                                 </li>
-                                {/* <li className="nav-item">
-                                    <Link className="nav-link mx-lg-2" aria-current="contact us" to="/contact">Contact</Link>
-                                </li> */}
+                                <li className="nav-item contact_link">
+                                    <Link className="nav-link mx-lg-2" aria-current="contact us" to="/contact">Contact Us</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>

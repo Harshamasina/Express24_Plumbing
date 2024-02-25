@@ -21,6 +21,29 @@ body{
     overflow-x: hidden;
 }
 
+::selection {
+    color: #f2f2f2;
+    background: rgba(239, 211, 11, .8);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px grey;
+    /* background: #4e545f; */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(239, 211, 11, .7);;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #F9BE08;
+    width: 15px;
+}
+
 /* Navbar */
 
 .navbar{
@@ -143,11 +166,12 @@ body{
     bottom: 5rem;
     right: 4rem;
     z-index: 999;
-    animation: .2s ease-in-out;
+    animation: .4s ease-in-out;
 }
 
 .goToTop_icon:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
+    color: #F9BE08;
 }
 
 .popover_no{
@@ -1188,15 +1212,31 @@ form{
     text-align: justify;
 }
 
+.contact_link{
+    display: none;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 600px){
+    .navbar_button{
+        display: none;
+    }
+
     .navbar_img{
-        width: 150px;
+        width: 200px;
     }
 
     .navbar_button{
         font-size: 10px;
+    }
+
+    .contact_link{
+        display: inline;
+    }
+
+    .arrow{
+        width: 2.5rem;
     }
 
     .makeCall_icon{
@@ -1366,6 +1406,14 @@ form{
     .goToTop_icon{
         right: 0.75em;
         width: 1.5rem;
+        bottom: 2rem;
+    }
+
+    .makeCall_icon{
+        font-size: 3rem;
+        left: 1.5rem;
+        bottom: 2rem;
+        animation: none;
     }
 }
 
