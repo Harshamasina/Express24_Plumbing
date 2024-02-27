@@ -3,8 +3,6 @@ import dirty from '../assets/dirty.jpg';
 import clean from '../assets/clean.jpg';
 import { MdPlumbing } from "react-icons/md";
 import CoatingPipe from '../assets/CoatingPipe.mp4';
-import ContactRibbon from './ContactRibbon';
-import Testimonials from './Testimonials';
 
 const HomeContent = () => {
     return (
@@ -28,9 +26,6 @@ const HomeContent = () => {
                     <span>Please contact us at 1-800-209-2709</span>
                 </p>
             </div>
-            
-            <ContactRibbon />
-            <Testimonials />
         </>
     );
 };

@@ -1,0 +1,44 @@
+{
+    "locations": [
+        {
+            "location": "Lebanon, Missouri",
+            "number_1": "1-417-344-1400",
+            "number_2": "1-800-209-2709"
+        },
+        {
+            "location": "Osage Beach, Missouri",
+            "number_1": "1-573-842-8759",
+            "number_2": "1-800-209-2709"
+        },
+        {
+            "location": "Washington, Missouri",
+            "number_1": "1-636-392-5021",
+            "number_2": "1-800-209-2709"
+        },
+        {
+            "location": "Rolla, Missouri",
+            "number_1": "1-573-612-5060",
+            "number_2": "1-800-209-2709"
+        },
+        {
+            "location": "Warrensburg, Missouri",
+            "number_1": "1-660-233-2420",
+            "number_2": "1-800-209-2709"
+        },
+        {
+            "location": "Steelville, Missouri",
+            "number_1": "1-660-233-2420",
+            "number_2": "1-800-209-2709"
+        },
+        {
+            "location": "Owensville, Missouri",
+            "number_1": "1-660-233-2420",
+            "number_2": "1-800-209-2709"
+        },
+        {
+            "location": "Saint James, Missouri",
+            "number_1": "1-660-233-2420",
+            "number_2": "1-800-209-2709"
+        }
+    ]
+}

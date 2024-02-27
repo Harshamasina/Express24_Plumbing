@@ -1,8 +1,9 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-import { VscCallOutgoing } from "react-icons/vsc";
 import { BiSolidContact } from "react-icons/bi";
 import { GrMapLocation } from "react-icons/gr";
+import { locations } from '../data/locations.json';
+import { VscCallOutgoing } from "react-icons/vsc"; 
 
 const Contact = () => {
     const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/contact_9.jpg";
@@ -70,56 +71,21 @@ const Contact = () => {
                 <span><GrMapLocation /></span>
                 <h3 style={{textAlign: 'center', fontSize: '60px', color: '#1A1A19'}}>Mid Missouri Serving Areas</h3>
             </div>
+
             <div className='contact_no_container'>
-                <div className='cards'>
-                    <div className='card_icon'>
-                        <VscCallOutgoing />
-                    </div>
-                    <h3>Lebanon, Missouri</h3>
-                    <p>And Surrounding Areas</p>
-                    <span>1-417-344-1400</span><br />
-                    <span>1-800-209-2709</span>
-                </div>
-
-                <div className='cards'>
-                    <div className='card_icon'>
-                        <VscCallOutgoing />
-                    </div>
-                    <h3>Osage Beach, Missouri</h3>
-                    <p>And Surrounding Areas</p>
-                    <span>1-573-842-8759</span><br />
-                    <span>1-800-209-2709</span>
-                </div>
-
-                <div className='cards'>
-                    <div className='card_icon'>
-                        <VscCallOutgoing />
-                    </div>
-                    <h3>Washington, Missouri</h3>
-                    <p>And Surrounding Areas</p>
-                    <span>1-636-392-5021</span><br />
-                    <span>1-800-209-2709</span>
-                </div>
-
-                <div className='cards'>
-                    <div className='card_icon'>
-                        <VscCallOutgoing />
-                    </div>
-                    <h3>Rolla, Missouri</h3>
-                    <p>And Surrounding Areas</p>
-                    <span>1-573-612-5060</span><br />
-                    <span>1-800-209-2709</span>
-                </div>
-
-                <div className='cards'>
-                    <div className='card_icon'>
-                        <VscCallOutgoing />
-                    </div>
-                    <h3>Warrensburg, Missouri</h3>
-                    <p>And Surrounding Areas</p>
-                    <span>1-660-233-2420</span><br />
-                    <span>1-800-209-2709</span>
-                </div>
+                {
+                    locations && locations.map((item, index) => {
+                        return (
+                            <div className='cards' key={index}>
+                                <div className='card_icon'><VscCallOutgoing /></div>
+                                <h3>{item.location}</h3>
+                                <p>And Surrounding Areas</p>
+                                <span>{item.number_1}</span><br />
+                                <span>{item.number_2}</span>
+                            </div>
+                        )
+                    })
+                }
             </div>
         </>
     )
