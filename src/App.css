@@ -1160,7 +1160,7 @@ form{
     font-size: 100px;
     margin: 0;
     color: #F9F8F4;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 5px 10px 25px;
 }
 
 .slider .list .item .content h1::before{

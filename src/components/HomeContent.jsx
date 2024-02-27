@@ -1,7 +1,7 @@
 import React from 'react';
 import dirty from '../assets/dirty.jpg';
 import clean from '../assets/clean.jpg';
-import { MdPlumbing } from "react-icons/md";
+// import { MdPlumbing } from "react-icons/md";
 import CoatingPipe from '../assets/CoatingPipe.mp4';
 
 const HomeContent = () => {
@@ -9,7 +9,7 @@ const HomeContent = () => {
         <>
             <div className='home_info'>
                 <h2>Our Newest Service:</h2>
-                <span><MdPlumbing /></span>
+                {/* <span><MdPlumbing /></span> */}
                 <h4>Sewer Lining and Trenchless Repair</h4>
             </div>
 
