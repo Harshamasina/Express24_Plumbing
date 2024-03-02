@@ -1157,7 +1157,7 @@ form{
 }
 
 .slider .list .item .content h1{
-    font-size: 100px;
+    font-size: 5vw;
     margin: 0;
     color: #F9F8F4;
     padding: 10px 5px 10px 25px;
@@ -1186,9 +1186,9 @@ form{
     color: #f2f2f2;
 }
 
-.slider .list .item .content p{
+.slider .list .item .content h2{
     color: rgba(239, 211, 11, .8);
-    font-size: 50px;
+    font-size: 2.5vw;
 }
 
 .slider .list .item.active{
@@ -1375,8 +1375,7 @@ form{
     }
 
     .testimonial_icons{
-        font-size: 75px;
-        margin-top: -24%;
+        display: none;
     }
 
     .slider_container{
@@ -1494,6 +1493,7 @@ form{
     }
 
     .thumbnail{
+        display: none !important;
         justify-content: start;
     }
 
@@ -1503,15 +1503,16 @@ form{
     }
     
     .slider .list .item .content h1{
-        font-size: 55px;
+        font-size: 8vh;
     }
 
-    .slider .list .item .content p{
-        font-size: 25px;
+    .slider .list .item .content h2{
+        font-size: 5vh;
     }
 
     .arrows_slider{
-        top: 55%;
+        top: 90%;
+        right: 20px;
     }
 
     ::-webkit-scrollbar{
@@ -1520,7 +1521,135 @@ form{
 }
 
 @media screen and (max-width:768px) and (min-width:601px){
+    .home_video{
+        margin-top: 10%;
+        flex-direction: column;
+    }
 
+    .home_video video{
+        width: 700px;
+    }
+
+    .home_video p{
+        text-align: justify;
+    }
+
+    .contact_ribbon_content h3{
+        font-size: 40px;
+    }
+
+    .contact_ribbon_content p{
+        font-size: 25px;
+    }
+
+    .testimonial_icons{
+        display: none;
+    }
+
+    .slider_container{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .testimonial_container h3{
+        font-size: 60px;
+    }
+
+    .testimonial_container{
+        height: 800px;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .slider .list .item .content{
+        width: 600px;
+        max-width: 80%;
+    }
+
+    .slider .list .item .content h1{
+        font-size: 7vh;
+    }
+
+    .slider .list .item .content h2{
+        font-size: 4vh;
+    }
+
+    .arrows_slider{
+        top: 60%;
+        right: 20px;
+    }
+
+    .service_cards_container{
+        flex-direction: column;
+        margin-left: 23%;
+    }
+
+    .service_cards{
+        width: 400px;
+        height: 550px;
+    }
+
+    .about_container{
+        flex-direction: column;
+        margin-left: 10%;
+    }
+
+    .whyus_container{
+        flex-direction: column;
+    }
+
+    .truck_image{
+        --s: 400px;
+    }
+
+    .section_info p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .contact_item{
+        margin-top: 20px;
+        max-width: 100%;
+        height: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    form{
+        margin-bottom: 20px;
+    }
+
+    .contact_text h3{
+        font-size: 50px;
+    }
+
+    .contact_text h4{
+        font-size: 30px;
+    }
+
+    .contact_form h4{
+        margin-left: 8%;
+    }
+
+    form{
+        padding: 0 10px;
+    }
+
+    .input_box{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .contact_form h4{
+        margin-left: 25%;
+        font-size: 50px;
+    }
+
+    .contact img{
+        width: 60%;
+        margin-left: 18%;
+    }
 }
 
 

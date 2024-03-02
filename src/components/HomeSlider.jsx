@@ -36,7 +36,7 @@ const HomeSlider = () => {
                                 <img src={item.src} alt={item.alt} />
                                 <div className="content">
                                     <h1>{item.heading}</h1>
-                                    <p>{item.caption}</p>
+                                    <h2>{item.caption}</h2>
                                 </div>
                             </div>
                         )
