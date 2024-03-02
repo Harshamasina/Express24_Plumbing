@@ -3,12 +3,19 @@ import { Parallax } from 'react-parallax';
 import { MdHomeRepairService } from "react-icons/md";
 import { services } from "../data/services.json";
 import { TiInputChecked } from "react-icons/ti";
+import { Helmet } from 'react-helmet';
 
 const Service = () => {
     const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/service_12.jpg";
 
     return (
         <>
+            <Helmet>
+                <title>Services | Express 24 Plumbing and Electrical</title>
+                <meta name="description" content="We do all electrical, plumbing, water and flood damage services" />
+                <meta name='keywords' content='Express 24 Electrical, Plumbing, Water and Flood Damage Services, Thermal Scanning, Home Surge Protection, Safety Inspection, Generator Backup, Fuse Box, Interior Lighting, Drain Cleaning, Frozen Pipes, Leaking Pipes, Plumbing Repairs, Plumbing Video Camera, Sewer Line Repair, Water Line Repair, Water Heater Repair, Well Pump Replacement, Flood Damage Restoration, Complete Foundation Restoration, Deodorization, Flood Odor Cleaning, Fire Damage Restoration, Mold Remediation ' />
+            </Helmet>
+
             <div>
                 <Parallax bgImage={ img } strength={300} bgImageAlt="parallaximg" blur={1}>
                     <div className='ParallaxContainer1'>

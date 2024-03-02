@@ -3,12 +3,20 @@ import { Parallax } from 'react-parallax';
 import { BiSolidContact } from "react-icons/bi";
 import { GrMapLocation } from "react-icons/gr";
 import { locations } from '../data/locations.json';
-import { VscCallOutgoing } from "react-icons/vsc"; 
+import { VscCallOutgoing } from "react-icons/vsc";
+import { Helmet } from 'react-helmet'; 
 
 const Contact = () => {
     const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/contact_9.jpg";
+    
     return (
         <>
+            <Helmet>
+                <title>Contact | Express 24 Plumbing and Electrical</title>
+                <meta name="description" content="Contact Express 24 Plumbing and Electrical today at 1-800-209-2709 or mail us at expressplumbing1972@yahoo.com, Find us at 2330 North Bishop Ave, Rolla, Missouri, USA, 65401" />
+                <meta name='keywords' content='Missouri, Mid Missouri Areas, Lebanon, Osage Beach, Washington, Rolla, Warrensburg, Steelville, St James, Licking, Houston' />
+            </Helmet>
+
             <div>
                 <Parallax bgImage={ img } strength={300} bgImageAlt="parallaximg" blur={1}>
                     <div className='ParallaxContainer1'>

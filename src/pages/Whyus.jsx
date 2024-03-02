@@ -8,11 +8,18 @@ import { LiaCertificateSolid } from "react-icons/lia";
 import { LuHeartHandshake } from "react-icons/lu";
 import { BiWater } from "react-icons/bi";
 import { IoShieldCheckmarkOutline } from "react-icons/io5";
+import { Helmet } from 'react-helmet';
 
 const Whyus = () => {
     const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/whyus_14.jpg";
     return (
         <>
+            <Helmet>
+                <title>Why Us? | Express 24 Plumbing and Electrical</title>
+                <meta name="description" content="Why you should choose Express 24 Plumbing and Electrical for Plumbing, Electrical and Water and Flood Damage Services." />
+                <meta name='keywords' content='We have the tools, Competitive Pricing, Certified Experience, Customer Satisfaction, Water Heater Pump, Fixing the problems' />
+            </Helmet>
+
             <Parallax bgImage={ img } strength={300} bgImageAlt="parallaximg" blur={1}>
                 <div className='ParallaxContainer1'>
                     <div className="ParallaxDiv">

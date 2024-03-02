@@ -1,11 +1,18 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import { BsBuildingsFill } from "react-icons/bs";
+import { Helmet } from 'react-helmet';
 
 const About = () => {
     const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/about_13.jpg";
     return (
         <>
+            <Helmet>
+                <title>About US | Express 24 Plumbing and Electrical</title>
+                <meta name="description" content="We are a reputable and reliable service provider based in the heart of Central Missouri. With our dedicated team of skilled professionals, we strive to deliver exceptional plumbing and electrical solutions round the clock. Our commitment to excellence, coupled with our years of experience in the industry, has earned us a solid reputation among both residential and commercial clients. At Express 24 Hour Plumbing and Electrical, we understand the importance of prompt and efficient service, and we are here to meet all your plumbing and electrical needs with speed, reliability, and utmost professionalism." />
+                <meta name='keywords' content='About Express 24 Plumbing and Electrical' />
+            </Helmet>
+
             <Parallax bgImage={ img } strength={300} bgImageAlt="parallaximg" blur={1}>
                 <div className='ParallaxContainer1'>
                     <div className="ParallaxDiv">
