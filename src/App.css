@@ -536,6 +536,18 @@ form{
     border: 2px solid #EFD30B;
 }
 
+.input_box input::placeholder{
+    color: #1A1A19;
+}
+
+.input_box textarea::placeholder{
+    color: #1A1A19;
+}
+
+.input_box select::placeholder{
+    color: #1A1A19;
+}
+
 .input_button{
     color: #1A1A19;
     background-color: #EFD30B;
@@ -654,7 +666,7 @@ form{
 }
 
 .section_info p {
-    font-size: 15px;
+    font-size: 20px;
     color: rgba(26, 26, 25, .8);
 }
 
@@ -902,8 +914,8 @@ form{
 }
 
 .home_info h2{
-    font-size: 25px;
-    margin-bottom: 1.5%;
+    font-size: 30px;
+    color: #EFD30B;
 }
 
 .home_info h4{
@@ -1042,7 +1054,7 @@ form{
 
 .testimonial_container{
     background: #1A1A19;
-    height: 650px;
+    height: 600px;
 }
 
 .testimonial_container h3{
@@ -1289,6 +1301,77 @@ form{
     color: #F9F8F4;
 }
 
+.location_slider_ribbon{
+    background: #1A1A19;
+}
+
+.location_slider_ribbon span {
+    font-size: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: #DFDFD9;
+    transition: .3s ease-in-out;
+}
+
+.location_slider_ribbon h3{
+    text-align: center;
+    font-size: 3vw;
+    color: #EFD30B;
+}
+
+.locationSlider_container {
+    display: flex;
+    overflow: hidden;
+    margin-top: 2%;
+}
+
+.locationSlider_track {
+    display: flex;
+    animation: slideAnimation 25s linear infinite;
+}
+
+.locationSlider {
+    background: #DFDFD9;
+    height: 100px;
+    width: 500px;
+    margin: 0 15px;
+    border-radius: 15px;
+    /* transition: .6 ease; */
+    color: #1A1A19;
+}
+
+.locationSlider:hover{
+    background: #EFD30B;
+    color: #F9F8F4;
+    transform: scale(1.04);
+}
+
+.locationSlider a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.locationSlider p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Keyframes for slide animation */
+@keyframes slideAnimation {
+    0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 600px){
@@ -1314,8 +1397,8 @@ form{
 
     .makeCall_icon{
         font-size: 1.5rem;
-        bottom: 3rem;
-        right: 2rem;
+        /* bottom: 3rem;
+        right: 2rem; */
     }
 
     .carousel_text h1{
@@ -1337,7 +1420,7 @@ form{
     }
 
     .home_slider > img{
-        width: 375px;
+        width: 350px;
         height: 200px;
     }
 
@@ -1351,7 +1434,7 @@ form{
     }
 
     .home_video video{
-        width: 375px;
+        width: 350px;
     }
 
     .home_video p{
@@ -1376,6 +1459,10 @@ form{
 
     .testimonial_icons{
         display: none;
+    }
+
+    .testimonial_card p{
+        text-align: center;
     }
 
     .slider_container{
@@ -1404,12 +1491,12 @@ form{
 
     .yellow_container{
         width: 95%;
-        height: 400px;
+        height: 500px;
     }
 
     .about_img img{
         width: 90%;
-        height: 350px;
+        height: 450px;
     }
 
     .about_right{
@@ -1517,6 +1604,32 @@ form{
 
     ::-webkit-scrollbar{
         display: none;
+    }
+
+    .location_slider_ribbon span {
+        font-size: 6vh;
+        padding-bottom: 2%;
+    }
+
+    .locationSlider_track {
+        display: flex;
+        animation: slideAnimation 25s linear infinite;
+    }
+
+    .locationSlider_container{
+        margin-top: 5%;
+    }
+
+    .location_slider_ribbon h3{
+        font-size: 4vh;
+    }
+
+    .locationSlider{
+        width: 250px;
+    }
+
+    .locationSlider p{
+        font-size: 2.5vh;
     }
 }
 
@@ -1649,6 +1762,27 @@ form{
     .contact img{
         width: 60%;
         margin-left: 18%;
+    }
+
+    .location_slider_ribbon span {
+        font-size: 8vh;
+        padding-bottom: 2%;
+    }
+
+    .locationSlider_container{
+        margin-top: 5%;
+    }
+
+    .location_slider_ribbon h3{
+        font-size: 4vh;
+    }
+
+    .locationSlider{
+        width: 300px;
+    }
+
+    .locationSlider p{
+        font-size: 2.5vh;
     }
 }
 

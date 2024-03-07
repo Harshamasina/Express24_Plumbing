@@ -3,13 +3,10 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { clients } from "../data/clients.json";
-import Card from 'react-bootstrap/Card';
-import yellow_1 from '../assets/yellow_1.jpg';
 import { FaQuoteLeft } from "react-icons/fa";
 import { FaQuoteRight } from "react-icons/fa";
 
 const Testimonials = () => {
-    console.log(clients);
     var settings = {
         dots: true,
         fade: true,

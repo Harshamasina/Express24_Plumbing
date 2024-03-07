@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Parallax } from 'react-parallax';
 import { BiSolidContact } from "react-icons/bi";
 import { GrMapLocation } from "react-icons/gr";
@@ -8,6 +8,22 @@ import { Helmet } from 'react-helmet';
 
 const Contact = () => {
     const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/contact_9.jpg";
+    const [userMessage, setUserMessage] = useState({
+        name: "",
+        email: "",
+        phone: "",
+        service: "",
+        message: ""
+    });
+
+    let name, value;
+    let handleInputs = (e) => {
+        name=e.target.name;
+        value = e.target.value;
+        setUserMessage({...userMessage, [name]:value});
+    };
+
+    console.log(userMessage);
     
     return (
         <>
@@ -44,29 +60,29 @@ const Contact = () => {
                         <h4>Send Us a Message</h4>
                         <form action=''>
                             <div className="input_box">
-                                <input type='text' id='' placeholder='Enter your Name' required/>
+                                <input type='text' placeholder='Enter your Name' name='name' value={userMessage.name} onChange={handleInputs} required/>
                             </div>
 
                             <div className="input_box">
-                                <input type='email' id='' placeholder='Enter your Email' required />
+                                <input type='email' placeholder='Enter your Email' name='email' value={userMessage.email} onChange={handleInputs} required />
                             </div>
 
                             <div className="input_box">
-                                <input type='tel' id='' placeholder='Enter your phone' required />
+                                <input type='tel' placeholder='Enter your phone' name='phone' value={userMessage.phone} onChange={handleInputs} required />
                             </div>
 
                             <div className="input_box">
-                                <select type='text' id='' required>
-                                    <option disabled selected>Service you want to contact</option>
-                                    <option>Electrician Service</option>
-                                    <option>Plumbing Service</option>
-                                    <option>Water Damage Cleanup</option>
-                                    <option>Other</option>
+                                <select type='text' name='service' value={userMessage.service} onChange={handleInputs} required>
+                                    <option disabled selected value="">Service you want to contact</option>
+                                    <option value="es">Electrician Service</option>
+                                    <option value="ps">Plumbing Service</option>
+                                    <option value="wdc">Water Damage Cleanup</option>
+                                    <option value="etc">Other</option>
                                 </select>
                             </div>
 
                             <div className="input_box">
-                                <textarea type='text' id='' cols="30" rows="10" placeholder='Enter your Message' required></textarea>
+                                <textarea type='text' cols="30" rows="10" placeholder='Enter your Message' name='message' value={userMessage.message} onChange={handleInputs} required></textarea>
                             </div>
 
                             <input className='input_button' type='submit' value="Send Us Message" />

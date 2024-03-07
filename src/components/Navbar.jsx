@@ -1,14 +1,37 @@
 import React from 'react';
-import { Routes, Route, Link } from "react-router-dom";
+import { useEffect } from 'react';
+import { Routes, Route, Link, useLocation } from "react-router-dom";
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Whyus from '../pages/Whyus';
 import Contact from '../pages/Contact';
 import Service from '../pages/Service';
 import Error404 from '../pages/Error404';
-import plumbing_logo from '../assets/plumbing_logo.png'
+import plumbing_logo from '../assets/plumbing_logo.png';
 
 const Navbar = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        const offcanvasLinks = document.querySelectorAll('#offcanvasNavbar .nav-link');
+        const offcanvasElement = document.getElementById('offcanvasNavbar');
+        
+        const closeOffcanvas = () => {
+            const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+            offcanvas.hide();
+        };
+        
+        offcanvasLinks.forEach(link => {
+            link.addEventListener('click', closeOffcanvas);
+        });
+        
+        return () => {
+            offcanvasLinks.forEach(link => {
+                link.removeEventListener('click', closeOffcanvas);
+            });
+        };
+    }, [location]);
+
     return (
         <>
             <nav className="navbar navbar-expand-lg shadow-lg fixed-top">

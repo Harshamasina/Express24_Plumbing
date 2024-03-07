@@ -2,6 +2,7 @@ import HomeContent from "../components/HomeContent";
 import HomeSlider from "../components/HomeSlider";
 import ContactRibbon from '../components/ContactRibbon';
 import Testimonials from '../components/Testimonials';
+import LocationSlider from '../components/LocationSlider';
 import { Helmet } from 'react-helmet';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             </Helmet>
             <HomeSlider />
             <HomeContent />
+            <LocationSlider />
             <ContactRibbon />
             <Testimonials />
         </>
