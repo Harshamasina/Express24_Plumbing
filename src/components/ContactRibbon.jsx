@@ -9,7 +9,7 @@ const ContactRibbon = () => {
                     <h3>All Your Electrical and Plumbing Needs</h3>
                     <p>We can wire and plumb you right!</p>
                 </div>
-                <Link to='/contact' className='contact_ribbon_link'>Get Free Consultation</Link>
+                <Link to='/contact' className='contact_ribbon_link' aria-label='click to contact us for consultation'>Get Free Consultation</Link>
             </div>
         </div>
     )

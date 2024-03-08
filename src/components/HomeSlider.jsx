@@ -45,8 +45,8 @@ const HomeSlider = () => {
             </div>
 
             <div className='arrows_slider'>
-                <button onClick={prevSlide}><LiaLessThanSolid /></button>
-                <button onClick={nextSlide}><LiaGreaterThanSolid /></button>
+                <button onClick={prevSlide} aria-label='click to go to next image in the slider'><LiaLessThanSolid /></button>
+                <button onClick={nextSlide} aria-label='click to go to previous image in the slider'><LiaGreaterThanSolid /></button>
             </div>
 
             <div className="thumbnail">

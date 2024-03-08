@@ -14,7 +14,7 @@ const locationSlider = () => {
                             locations && locations.map((item, index) => {
                                 return(
                                     <div className='locationSlider' key={index}>
-                                        <a href={`tel:${item.number_1}`}>
+                                        <a href={`tel:${item.number_1}`} aria-label={`call us at ${item.number_1}`}>
                                             <p>{item.location}</p>
                                         </a>
                                     </div>

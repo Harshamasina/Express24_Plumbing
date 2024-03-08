@@ -36,32 +36,32 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg shadow-lg fixed-top">
                 <div className="container-fluid">
-                    <Link className="navbar-brand me-auto" to="/">
+                    <Link className="navbar-brand me-auto" to="/" aria-label='click to go to home page'>
                         <img src={plumbing_logo} alt='navbar_logo' className='navbar_img'></img>
                     </Link>
 
                     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div className="offcanvas-header">
                             <img className="offcanvas-title navbar_img" id="offcanvasNavbarLabel" src={plumbing_logo} alt='navbar_logo'></img>
-                            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close offcanvas"></button>
                         </div>
 
                         <div className="offcanvas-body">
                             <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
                                 <li className="nav-item">
-                                    <Link className="nav-link mx-lg-2" aria-current="home" to="/home">Home</Link>
+                                    <Link className="nav-link mx-lg-2" aria-current="home" aria-label='Read more about us' to="/home">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link mx-lg-2" aria-current="services" to="/services">Services</Link>
+                                    <Link className="nav-link mx-lg-2" aria-current="services" aria-label='Read more about our services' to="/services">Services</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link mx-lg-2" aria-current="about us" to="/aboutus">About Us</Link>
+                                    <Link className="nav-link mx-lg-2" aria-current="about us" aria-label='Read more about us' to="/aboutus">About Us</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link mx-lg-2" aria-current="why us" to="/whyus">Why Us?</Link>
+                                    <Link className="nav-link mx-lg-2" aria-current="why us" aria-label='Read more about why to consultate us' to="/whyus">Why Us?</Link>
                                 </li>
                                 <li className="nav-item contact_link">
-                                    <Link className="nav-link mx-lg-2" aria-current="contact us" to="/contact">Contact Us</Link>
+                                    <Link className="nav-link mx-lg-2" aria-current="contact us" aria-label='Read more about how to contact us' to="/contact">Contact Us</Link>
                                 </li>
                             </ul>
                         </div>
