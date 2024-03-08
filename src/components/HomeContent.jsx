@@ -8,7 +8,7 @@ const HomeContent = () => {
     return (
         <>
             <div className='home_info'>
-                <h2>Our Newest Service:</h2>
+                <h3>Our Newest Service:</h3>
                 {/* <span><MdPlumbing /></span> */}
                 <h4>Sewer Lining and Trenchless Repair</h4>
             </div>

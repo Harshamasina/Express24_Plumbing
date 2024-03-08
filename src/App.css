@@ -913,7 +913,7 @@ form{
     margin-top: 3%;
 }
 
-.home_info h2{
+.home_info h3{
     font-size: 30px;
     color: #EFD30B;
 }
@@ -1472,7 +1472,7 @@ form{
 
     .service_cards_container{
         flex-direction: column;
-        margin-left: 10%;
+        margin-left: 14%;
     }
 
     .service_cards{

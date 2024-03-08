@@ -54,8 +54,8 @@ const Footer = () => {
                                     </div>
 
                                     <div className="footer-social-icon">
-                                        <a href="https://www.bbb.org/us/mo/waynesville/profile/plumber/express-24-hr-plumbing-and-electrical-0734-310611651" className='footer_bbb' target='_blank' aria-label='click to go to our bbb.org page'><FaGripfire /></a>
-                                        <a href="https://www.facebook.com/expressplumbingandElectrical" className='footer_fb' target='_blank' aria-label='click to go to our facebook page'><FaFacebookF /></a>
+                                        <a href="https://www.bbb.org/us/mo/waynesville/profile/plumber/express-24-hr-plumbing-and-electrical-0734-310611651" className='footer_bbb' target='_blank' rel='noreferrer' aria-label='click to go to our bbb.org page'><FaGripfire /></a>
+                                        <a href="https://www.facebook.com/expressplumbingandElectrical" className='footer_fb' target='_blank' rel='noreferrer' aria-label='click to go to our facebook page'><FaFacebookF /></a>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ const Footer = () => {
                                 <div className='footer_bbb_section'>
                                     <h3>Serving Mid Missouri</h3>
                                     <h5>Lake of the Ozark, Branson, Warrensburg, Rolla, Waynesville, Saint Roberts, Cuba, Sullivan, Columbia, Jefferson City and surrounding areas</h5>
-                                    <a href='https://www.bbb.org/us/mo/waynesville/profile/plumber/express-24-hr-plumbing-and-electrical-0734-310611651' target='_blank' aria-label='click image to go to bbb.org page'>
+                                    <a href='https://www.bbb.org/us/mo/waynesville/profile/plumber/express-24-hr-plumbing-and-electrical-0734-310611651' target='_blank' rel='noreferrer' aria-label='click image to go to bbb.org page'>
                                         <img src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/bbb_logo_round.webp" alt='bbb_logo' />
                                     </a>
                                 </div>
