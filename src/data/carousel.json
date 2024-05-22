@@ -1,39 +1,48 @@
 {
     "slides": [
         {
-            "src": "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/truck_21.jpg",
+            "src": "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_1.webp",
             "alt": "hero image",
             "heading": "Welcome to Express 24 Plumbing and Electrical",
-            "caption": "Free Consultation? Call us at 800-209-2709",
+            "caption": "Free Estimation? Call us at 800-209-2709",
             "subCaption": ""
         },
         {
-            "src": "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/electrical_22.jpg",
+            "src": "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_2.webp",
             "alt": "Electrical Repair and Wiring Image",
             "heading": "Electrical Repair and Wiring",
             "caption": "Professional Commercial & Residential Service",
             "subCaption": "Electrical Repair"
         },
         {
-            "src": "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/sewer_23.jpg",
+            "src": "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_3.webp",
             "alt": "Plumbing Image",
             "heading": "Installing & Maintaining Plumbing",
-            "caption": "Drinking water, sewage and Drainage",
+            "caption": "Water, sewage and Drainage",
             "subCaption": "Plumbing"
         },
         {
-            "src": "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/water_26.jpg",
+            "src": "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_4.webp",
             "alt": "Flood Image",
             "heading": "Flood & Water Damage Restoration",
             "caption": "Help Restore your Home from Water/Flood Damage",
             "subCaption": "Water Damage"
         },
         {
-            "src": "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/mold_19.jpg",
+            "src": "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_23.webp",
             "alt": "Mold Remediation Image",
             "heading": "Mold Remediation",
             "caption": "Help Restore your Home safely from Mold",
             "subCaption": "Mold Remediation"
+        },
+        {
+            
+            "src": "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_22.webp",
+            "alt": "Trenchless Sewer Line in Home Places",
+            "heading": "Trenchless Sewer Line",
+            "caption": "Sewer Line in Home Places",
+            "subCaption": "Trenchless Sewer Line"
+            
         }
     ]
 }

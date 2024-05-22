@@ -37,6 +37,7 @@ const HomeSlider = () => {
                                 <div className="content">
                                     <h1>{item.heading}</h1>
                                     <h2>{item.caption}</h2>
+                                    <span>Specializing in Insurance Claims and Free Estimates</span>
                                 </div>
                             </div>
                         )

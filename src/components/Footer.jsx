@@ -16,7 +16,7 @@ const Footer = () => {
                                 <div className="single-cta">
                                     <div className="cta-text">
                                         <h4>Find us</h4>
-                                        <span>2330 North Bishop Ave., Rolla, MO, United States, Missouri</span>
+                                        <span>Missouri and Surrounding Areas mainly, in Mid Western Missouri</span>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                             <div className="col-xl-4 col-lg-4 mb-50">
                                 <div className="footer-widget">
                                     <div className="footer-logo">
-                                        <Link to="/"><img src={logo} className="img-fluid" alt="logo" aria-label='click to go to home page' /></Link>
+                                        <Link to="/"><img src="https://express24plumbing.s3.ap-south-1.amazonaws.com/img_19.webp" className="img-fluid" alt="logo" aria-label='click to go to home page' /></Link>
                                     </div>
 
                                     <div className="footer-text">
@@ -81,7 +81,7 @@ const Footer = () => {
                                     <h3>Serving Mid Missouri</h3>
                                     <h5>Lake of the Ozark, Branson, Warrensburg, Rolla, Waynesville, Saint Roberts, Cuba, Sullivan, Columbia, Jefferson City and surrounding areas</h5>
                                     <a href='https://www.bbb.org/us/mo/waynesville/profile/plumber/express-24-hr-plumbing-and-electrical-0734-310611651' target='_blank' rel='noreferrer' aria-label='click image to go to bbb.org page'>
-                                        <img src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/bbb_logo_round.webp" alt='bbb_logo' />
+                                        <img src="https://express24plumbing.s3.ap-south-1.amazonaws.com/img_22_1.webp" alt='bbb_logo' />
                                     </a>
                                 </div>
                             </div>

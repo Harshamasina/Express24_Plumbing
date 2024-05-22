@@ -11,7 +11,7 @@ import { IoShieldCheckmarkOutline } from "react-icons/io5";
 import { Helmet } from 'react-helmet';
 
 const Whyus = () => {
-    const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/whyus_14.jpg";
+    const img = "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_16.webp";
     return (
         <>
             <Helmet>
@@ -58,7 +58,7 @@ const Whyus = () => {
                     </div>
                 </div>
 
-                <img src={whyus} alt="truck image" className='truck_image' />
+                <img src="https://express24plumbing.s3.ap-south-1.amazonaws.com/img_15.webp" alt="truck image" className='truck_image' />
 
                 <div className='right_section'>
                     <div className='section_info'>

@@ -4,7 +4,7 @@ import { BsBuildingsFill } from "react-icons/bs";
 import { Helmet } from 'react-helmet';
 
 const About = () => {
-    const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/about_13.jpg";
+    const img = "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_14.webp";
     return (
         <>
             <Helmet>
@@ -28,7 +28,7 @@ const About = () => {
                 <div className='about_left'>
                     <div className='yellow_container'></div>
                     <div className='about_img'>
-                        <img src="https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/trucks.jpg" alt='trucks' />
+                        <img src="https://express24plumbing.s3.ap-south-1.amazonaws.com/img_15.webp" alt='trucks' />
                     </div>
                 </div>
                 

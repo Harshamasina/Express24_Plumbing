@@ -6,7 +6,7 @@ import { TiInputChecked } from "react-icons/ti";
 import { Helmet } from 'react-helmet';
 
 const Service = () => {
-    const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/service_12.jpg";
+    const img = "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_10.webp";
 
     return (
         <>
@@ -33,7 +33,7 @@ const Service = () => {
                 <div className='service_wrapper'>
                     <div className='service_cards'>
                         <div className='card_image'>
-                            <img src='https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/electrical_services_18.jpg' alt='electrical services' />
+                            <img src='https://express24plumbing.s3.ap-south-1.amazonaws.com/img_11.webp' alt='electrical services' />
                         </div>
                         <div className='card_details'>
                             <h3>Electrical Services</h3>
@@ -59,7 +59,7 @@ const Service = () => {
                 <div className='service_wrapper'>
                     <div className='service_cards'>
                         <div className='card_image'>
-                            <img src='https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/plum_15.jpg' alt='electrical services' />
+                            <img src='https://express24plumbing.s3.ap-south-1.amazonaws.com/img_12.webp' alt='electrical services' />
                         </div>
                         <div className='card_details'>
                             <h3>Plumbing Services</h3>
@@ -85,7 +85,7 @@ const Service = () => {
                 <div>
                     <div className='service_cards'>
                         <div className='card_image'>
-                            <img src='https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/water_17.jpg' alt='electrical services' />
+                            <img src='https://express24plumbing.s3.ap-south-1.amazonaws.com/img_13.webp' alt='electrical services' />
                         </div>
                         
                         <div className='card_details'>

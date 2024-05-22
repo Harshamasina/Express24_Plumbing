@@ -58,7 +58,7 @@ const Navbar = () => {
                                     <Link className="nav-link mx-lg-2" aria-current="about us" aria-label='Read more about us' to="/aboutus">About Us</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link mx-lg-2" aria-current="why us" aria-label='Read more about why to consultate us' to="/whyus">Why Us?</Link>
+                                    <Link className="nav-link mx-lg-2" aria-current="why us" aria-label='Read more about why to estimate' to="/whyus">Why Us?</Link>
                                 </li>
                                 <li className="nav-item contact_link">
                                     <Link className="nav-link mx-lg-2" aria-current="contact us" aria-label='Read more about how to contact us' to="/contact">Contact Us</Link>
@@ -67,7 +67,7 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <Link to='/contact' className='navbar_button'>Free Consultation</Link>
+                    <Link to='/contact' className='navbar_button'>Free Estimation</Link>
                     <button className="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

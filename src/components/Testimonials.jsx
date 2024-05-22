@@ -70,6 +70,18 @@ const Testimonials = () => {
                     }
                 </Slider>
             </div>
+
+            <div className="img_box_card_container">
+                <div className="img_box_card">
+                    <div className="img_box">
+                        <img src="https://express24plumbing.s3.ap-south-1.amazonaws.com/img_9.webp" alt="Trenchless Repair" />
+                    </div>
+                    <div className="img_box_content">
+                        <h3>Trenchless Sewerline Pipe Repair</h3>
+                        <p>Repairing sewer systems lines without digging up or excavating. 20 years guarantee on Pipe Repair</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 };

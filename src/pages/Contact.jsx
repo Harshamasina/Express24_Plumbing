@@ -7,7 +7,7 @@ import { VscCallOutgoing } from "react-icons/vsc";
 import { Helmet } from 'react-helmet'; 
 
 const Contact = () => {
-    const img = "https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/contact_9.jpg";
+    const img = "https://express24plumbing.s3.ap-south-1.amazonaws.com/img_18.webp";
     const [userMessage, setUserMessage] = useState({
         name: "",
         email: "",
@@ -53,7 +53,7 @@ const Contact = () => {
                             <h3>We are ready to work for you</h3>
                             <h4>Request a <span>Free</span> Consultation!</h4>
                         </div>
-                        <img src='https://cellix-bio-mis.s3.ap-south-1.amazonaws.com/portfolio/contact_10.jpg' alt='contact vector' />
+                        <img src='https://express24plumbing.s3.ap-south-1.amazonaws.com/img_17.webp' alt='contact vector' />
                     </div>
 
                     <div className='contact_form'>
@@ -104,8 +104,8 @@ const Contact = () => {
                                 <div className='card_icon'><VscCallOutgoing /></div>
                                 <h3>{item.location}</h3>
                                 <p>And Surrounding Areas</p>
-                                <span>{item.number_1}</span><br />
-                                <span>{item.number_2}</span>
+                                <span>Local No: </span><a href={`tel:${item.number_1}`} aria-label={`call us at ${item.number_1}`}><span>{item.number_1}</span></a><br />
+                                <span>Toll Free No: </span><a href={`tel:${item.number_1}`} aria-label={`call us at ${item.number_2}`}><span>{item.number_2}</span></a>
                             </div>
                         )
                     })
