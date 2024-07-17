@@ -4,6 +4,8 @@ const HomeContent = () => {
     return (
         <>
             <div className='home_info'>
+                <p>LOcally Owned and Operated</p><br />
+                <span>We charge by the job not by the Hour!</span>
                 <h3>Our Newest Service:</h3>
                 <h4>Sewer Lining and Trenchless Repair</h4>
             </div>

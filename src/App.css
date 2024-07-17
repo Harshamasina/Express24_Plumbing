@@ -926,22 +926,26 @@ form{
 .home_info h3{
     font-size: 30px;
     color: #EFD30B;
+    margin-top: 1%;
 }
 
 .home_info h4{
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
     z-index: 2;
-    margin-top: 2;
+}
+
+.home_info p{
+    font-size: 40px;
+    color: #EFD30B;
+    font-weight: 600;
+    display: inline;
+    border-bottom: 3px solid #EFD30B;
+    padding-bottom: 2px;
 }
 
 .home_info span{
-    font-size: 150px;
-    position: absolute;
-    z-index: 1;
-    margin-left: -4%;
-    margin-top: -4%;
-    color: rgba(239, 211, 11, .6);
+    font-size: 50px;
 }
 
 .home_slider_container{
@@ -1514,15 +1518,21 @@ form{
         font-size: 2.5em;
     }
 
-    .home_info span{
-        margin-left: -10%;
-        margin-top: -11%;
-        font-size: 120px;
-    }
-
     .home_slider > img{
         width: 350px;
         height: 200px;
+    }
+
+    .home_info span{
+        font-size: 30px;
+    }
+
+    .home_info h4{
+        font-size: 30px;
+    }
+
+    .home_info p{
+        font-size: 40px;
     }
 
     .home_slider_container{

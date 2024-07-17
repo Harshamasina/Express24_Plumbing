@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { locations } from '../data/locations.json';
 import { MdOutlineLocationOn } from "react-icons/md";
 import Modal from 'react-bootstrap/Modal';
-import { Button } from 'react-bootstrap';
 
 const locationSlider = () => {
     const [showModal, setShowModal] = useState(false);
