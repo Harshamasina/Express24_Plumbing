@@ -39,6 +39,16 @@ const Contact = () => {
         }
         // Handle form submission logic here
         console.log("Form submitted successfully:", userMessage);
+        alert("Thanks for sending us a Message. We will reach you out soon.");
+        setUserMessage({
+            name: "",
+            email: "",
+            phone: "",
+            service: "",
+            message: "",
+            checkbox_1: false,
+            checkbox_2: false,
+        });
     };
 
     console.log(userMessage);
