@@ -58,7 +58,7 @@ const Whyus = () => {
                     </div>
                 </div>
 
-                <img src="https://express24plumbing.s3.ap-south-1.amazonaws.com/img_15.webp" alt="truck image" className='truck_image' />
+                <img src="https://express24plumbing.s3.ap-south-1.amazonaws.com/img_20.webp" alt="truck image" className='truck_image' />
 
                 <div className='right_section'>
                     <div className='section_info'>
