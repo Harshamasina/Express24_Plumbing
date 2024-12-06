@@ -1155,7 +1155,7 @@ form{
     /* border: 2px solid #DFDFD9; */
     border-radius: 15px;
     padding: 30px;
-    background: rgba(239, 211, 11, .1);
+    background: rgba(0,0,0,.5)
 }
 
 .testimonial_card_header{
